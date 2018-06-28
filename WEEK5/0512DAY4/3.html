@@ -29,9 +29,9 @@
 <!--<a href="#box">红盒子</a>-->
 <!--<div id="box"></div>-->
 
-<!--<a href="http://www.zhufengpeixun.cn/main/jiuye.html" id="link">
+<a href="http://www.zhufengpeixun.cn/main/jiuye.html" id="link">
     珠峰培训
-</a>-->
+</a>
 
 <input type="text" id="userInp">
 <script>
@@ -48,10 +48,10 @@
      *
      */
 
-    // link.onclick = function (ev) {
-    //     ev = ev || window.event;
-    //     ev.preventDefault ? ev.preventDefault() : ev.returnValue = false;
-    // };
+    link.onclick = function (ev) {
+        ev = ev || window.event;
+        ev.preventDefault ? ev.preventDefault() : ev.returnValue = false;
+    };
 
     // link.onclick = function () {
     //     return false;//=>原理：点击A的时候，首先触发的是CLICK，其次才会触发它的默认行为（我们在CLICK中返回FALSE，其意思是阻止下一步继续操作）
